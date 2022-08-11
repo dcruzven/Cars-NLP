@@ -21,7 +21,7 @@ There were some limitations and problems that the data has. There were only ~9k 
 
 
 # Results
-The best prediction scores cam from an XGBoost model. The model had accuracy score of 75%. The NaiveBayes model will not be used to predict prices based on car reviews.
+The best prediction scores came from an XGBoost model. The model had accuracy score of 75%. The NaiveBayes model will not be used to predict prices based on car reviews.
 
 # Conclusions
 - Model is able to give a good starting price point for clients
