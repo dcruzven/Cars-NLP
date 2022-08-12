@@ -55,18 +55,18 @@ Contact: [David Cruz](mailto:dcruzven20@gmail.com)
 ```
 Repository Structure:
 
-├── CleaningWebScrape                                    	 
-├── Modeling                                	   
-├── NLP-Modeling                                           
-├── WebScraping                              	    
-├── data
-├── .gitignore
-├── Procfile
-├── README.md
-├── ReportNotebook.ipynb
-├── app.py
-├── requirements.txt
-├── runtime.txt
-├── setup.sh
-└── xgb_model.sav
+├── CleaningWebScrape               #Folder containing notebook focused on data cleaning                           	 
+├── Modeling                        #Folder containing notebooks focused on modeling car details                                	   
+├── NLP-Modeling                    #Folder containing notebooks focused on NLP modeling with car reviews                                   
+├── WebScraping                     #Contains the web scraping process        	    
+├── data                            #Data used for project 
+├── .gitignore                      #ignore files
+├── Procfile                        #streamlit website setup
+├── README.md                       #High level overview of project
+├── ReportNotebook.ipynb            #Report notebook summarizing the project as a whole
+├── app.py                          #py file for streamlit website
+├── requirements.txt                #streamlit website setup
+├── runtime.txt                     #streamlit website setup
+├── setup.sh                        #streamlit website setup
+└── xgb_model.sav                   #XGBoost model
 ```
