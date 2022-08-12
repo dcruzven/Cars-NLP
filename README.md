@@ -1,4 +1,5 @@
 # Used Car Sale Predictions
+![Car Banner](https://img.freepik.com/premium-vector/new-vehicles-car-dealer-center-showroom-building_48369-17674.jpg?w=2000)
 
 # Overview
 This project focuses on trying to predict a price range for a used car. Our clients want an estimated price range for a used car. The goal would be to build a predictive model that does that. The data was web-scraped from Cars.com. The data scraped came from 9k used cars in Alabama. Relevent data was scraped, such as year, make, mpg, etc. Reviews of the cars were also aquired. This is all data the average client can look up when buying a used car. The data was very messy and a lot of steps were taken to clean it. This included extracting certain words, turning number details into numeric values for models. The reviews were also cleaned. Many natural language process methods were done to the reviews. This was an attempt to use reviews as a metric to predict price. The final model was not useful, despite the NLP methods.The best model was an XGBoost model. This model used the details of a car to predict price range. A good accuracy scored was recieved to satisfy the clients.
@@ -50,3 +51,22 @@ The best prediction scores came from the XGBoost model using car details. The mo
 # For More Information
 
 Contact: [David Cruz](mailto:dcruzven20@gmail.com)
+
+```
+Repository Structure:
+
+├── CleaningWebScrape                                    	 
+├── Modeling                                	   
+├── NLP-Modeling                                           
+├── WebScraping                              	    
+├── data
+├── .gitignore
+├── Procfile
+├── README.md
+├── ReportNotebook.ipynb
+├── app.py
+├── requirements.txt
+├── runtime.txt
+├── setup.sh
+└── xgb_model.sav
+```
