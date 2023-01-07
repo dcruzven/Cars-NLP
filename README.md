@@ -37,7 +37,7 @@ The best prediction scores came from the XGBoost model using car details. The mo
 - Difficult to incorporate reviews as a metric into predicting car price
 
     - There were not enough unique reviews to make a good predictions
-    - Even when trying different NLP approaches, model did not get any better.
+    - Even when trying different NLP approaches, model did not get any better
     - It did good for the data it had, but not worth putting into a model
 
 # Future Analysis
@@ -46,7 +46,7 @@ The best prediction scores came from the XGBoost model using car details. The mo
 - Find a way to better incorporate both models
     - By incorporating two models, one for reviews and one for car details, could produce a more accurate prediction
 - Create a better web-scraper/ Collecting more data
-    - Having more data is good, in this case more data means different cars from different states/larger radius.
+    - Having more data is good, in this case more data means different cars from different states/larger radius
 
 # For More Information
 
